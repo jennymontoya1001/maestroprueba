@@ -158,7 +158,7 @@ peticionEliminar = async () => {
                                             <td>{estudiante.telefono}</td>
                                             <td>{estudiante.celular}</td>
                                             <td>{estudiante.direccion}</td>
-                                            <td><img src={estudiante.imagen} width="50px"/></td>
+                                            <td><img src={estudiante.imagen} width="50px" alt=""/></td>
                                             <button className="btn btn-primary"
                                             onClick={() => {this.seleccionarEstudiante(estudiante);this.modalInsertar()}}><FontAwesomeIcon icon={faEdit}/></button>       
                                             <button className="btn btn-danger"
